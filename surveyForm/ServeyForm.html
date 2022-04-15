@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServeyForm-freeCodeCamp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 id="title">
+        Feedback Servey Form
+    </h1>
+    <p id="description">
+        Thank you for taking the time to help us improve the platform.
+    </p>
+    <form id="survey-form">
+        <div class="surveyForm">
+            <label for="name" id="name-label">Full Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+
+        </div>
+                
+        <label for="email" id="email-label">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email id" required><br>
+
+        <label for="number" id="number-label">Age (optional):</label><br>
+        <input type="number" id="number" name="number" placeholder="Enter your present age" min="1" max="100"><br>
+
+        <label for="dropdown" id="dropdown-label">What do you do?</label><br>
+        <select name="role" id="dropdown" required>
+            <option value selected disabled>Select your profession</option>
+            <option value="student">Student</option>
+            <option value="fullTimeEmployee">Full Time Employee</option>
+            <option value="Freelancer">Freelancer</option>
+            <option value="preferNotToSay">Prefer not to say</option>
+        </select><br>
+
+        <p>
+            Rate our services (Check all that apply)
+        </p>
+        <label for="UI">
+            <input type="checkbox" name="UI">
+            User Interface
+        </label><br>
+        <label for="UX">
+            <input type="checkbox" name="UX">
+            User Experience
+        </label><br>
+        <label for="CustomerSupport">
+            <input type="checkbox" name="CustomerSupport">
+            Customer Support
+        </label><br>
+        <label for="Fulfillment">
+            <input type="checkbox" name="Fulfillment">
+            Fulfillment
+        </label><br>
+
+        <p>
+            How likely would recommed our service to a friend
+        </p>
+        <div>
+            <input type="radio" id="recommed" name="sure" value="Sure">
+<label for="html">Sure</label><br>
+<input type="radio" id="recommed" name="notSure" value="Not Sure">
+<label for="notSure">Not Sure</label><br>
+<input type="radio" id="recommend" name="never" value="Never">
+<label for="never">Never</label>
+        </div>
+
+        <p>
+            Any comments or suggestions?
+        </p>
+        <textarea name="comments" id="comment" placeholder="Enter your suggestions Here"></textarea><br>
+
+        <button type="submit" id="submit"> Submit </button>
+    </form>
+</body>
+</html>

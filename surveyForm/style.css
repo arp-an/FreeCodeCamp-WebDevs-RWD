@@ -1,0 +1,29 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#title{
+    font-size: 400%;
+}
+
+#description{
+    font-size: 150%;
+}
+
+.surveyForm{
+    background-color: rgb(12, 6, 31);
+    margin: 5%;
+    padding: 7%;
+    padding-left: 15%;
+    text-align: start;
+    font-size: 200%;
+    row-gap: 10px;
+}
+
+#submitbutton{
+    text-align:center;
+    text-size-adjust: 100%;
+    item
+  }
