@@ -1,0 +1,30 @@
+#main {
+    background-color: rgb(202, 195, 225);
+    font-family: "Lucida Sans Regular", Geneva, Verdana, sans-serif;
+    color: rgb(42, 42, 94);
+    padding: 4%;
+    margin: 0.1%;
+  }
+  
+  #title {
+    font-family: "Franklin Gothic Medium", Arial, sans-serif;
+    font-size: larger;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid;
+    display: block;
+  }
+  #img-div {
+    text-align: center;
+  }
+  #tribute-info {
+    padding: 2%;
+    margin: auto;
+  }
+  
