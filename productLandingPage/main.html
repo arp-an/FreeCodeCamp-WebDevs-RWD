@@ -1,38 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>productLandingPage</title>
-    <style>
-           #header{
-                    width: 100%;
-                    position: fixed;
-                    top: 0;
-                    left: 0;
-                    z-index: 100;
-                    background-color: #fff;
-                    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
-           }     
-    </style>
-</head>
-<body>
-    <header id="header">
-        <img src="blah" alt="" id="header-img">
-        <nav id="nav-bar">
-            <ul class="nav-list">
-                <li class="nav-link"><a href="#" class="nav__link">Home</a></li>
-                <li class="nav-link"><a href="#" class="nav__link">Pricing</a></li>
-                <li class="nav-link"><a href="#" class="nav__link">About Us</a></li>
-        </nav>
-    </header>
-    <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" name="EmailAddress" id="email">
-        <input type="submit" value="Submit" id="submit">
-    </form>
-    <footer>
 
-    </footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>ProductLandingPage-freecodecamp</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <img id="header-img" src="https://github.com/arp-an/freeCodeCampRWD/blob/main/productLandingPage/Assets/download.png?raw=true" alt="logo" class="logo">
+      <ul>
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#recipe">Recipe</a>
+        <a class="nav-link" href="#pricing">Pricing</a>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="container">
+    <section class="message-box">
+      <h1>Cooked by Professional chefs with organic ingredients</h1>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input id="email" type="email" name="email" placeholder="example@mail.com">
+      <input id="submit" type="submit" value="Get Started" class="btn"></input>
+      </form>
+    </section>
+
+    <section id="home">
+      <div class="feature">
+        <i class="fab fa-free-code-camp fa-3x"></i>
+        <div>
+          <h2>Premium Ingredient</h2>
+          <p>Our momo uses organic ingredients which is sourced locally. This will increase the taste and health benefits</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-shipping-fast fa-3x"></i>
+        <div>
+          <h2>Fast Doorstep Delivary</h2>
+          <p>We make sure you receive your momo as soon as we have finished making it. We also provide free returns
+            if you are not satisfied.</p>
+        </div>
+      </div>
+      <div class="feature">
+        <i class="fas fa-battery-full fa-3x"></i>
+        <div>
+          <h2>Quality Assurance</h2>
+          <p>For every purchase you make, we ensure there are no impurity or faults and we check and remove those who does not reach our standard.</p>
+        </div>
+      </div>
+    </section>
+    <section id="recipe">
+      <iframe id="video" src="https://www.youtube.com/embed/kfvXn1RMRpY"></iframe>
+    </section>
+    <section id="pricing">
+      <div class="price-box">
+        <h3>Small Bucket</h3>
+        <h2>$10</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Medium Bucket</h3>
+        <h2>$50</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+      <div class="price-box">
+        <h3>Large Bucket</h3>
+        <h2>$100</h2>
+        <p>Lorem ipsum.
+          Lorem ipsum.
+          Lorem ipsum dolor.
+          Lorem ipsum.</p>
+        <a href="#" class="btn">SELECT</a>
+      </div>
+    </section>
+  </div>
+  <!-- FOOTER -->
+  <footer id="main-footer">
+    <div>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+    <p class="my-name">Made with &#9829; By Arpan Mondal</p>
+    <p>&copy; Copyright 2022, The Momo House</p>
+  </footer>
 </body>
 </html>
