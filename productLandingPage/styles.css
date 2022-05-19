@@ -95,7 +95,7 @@ a {
   margin-bottom: 1rem;
 }
 
-#features {
+#home {
   padding: 1rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
@@ -103,27 +103,27 @@ a {
   flex-direction: column;
 }
 
-#features .feature {
+#home .feature {
   display: flex;
   justify-self: center;
   align-items: center;
 }
 
-#features .feature i {
+#home .feature i {
   color: #ff8c00;
 }
 
-#features .feature div {
+#home .feature div {
   padding: 1rem;
   margin-left: 3rem;
 }
 
-#features .feature div h2 {
+#home .feature div h2 {
   font-size: 1.5rem;
   margin-bottom: 0.5rem;
 }
 
-#how-it-work {
+#recipe {
   padding: 3rem;
   margin: 4rem;
   text-align: center;
@@ -132,9 +132,9 @@ a {
   align-items: center;
 }
 
-#how-it-work #video {
-  width: 600px;
-  height: 340px;
+#recipe #video {
+  width: 640px;
+  height: 360px;
 }
 
 #pricing {
@@ -211,22 +211,22 @@ a {
     padding: 1rem 1rem;
   }
 
-  #features .feature {
+  #home .feature {
     flex-direction: column;
   }
 
-  #features .feature div {
+  #home .feature div {
     padding: 1rem;
     margin: 0.5rem;
     text-align: center;
     margin-bottom: 2rem;
   }
 
-  #how-it-work {
+  #recipe {
     padding: 1rem;
   }
 
-  #how-it-work #video {
+  #recipe #video {
     width: 80%;
     height: 30%;
   }
