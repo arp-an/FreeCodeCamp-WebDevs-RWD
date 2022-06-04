@@ -4,8 +4,8 @@
 
 ## Demo
 
-🔗 [Open in Github Pages](https://arp-an.github.io/fCC-RWD/tributePage/home)
-🔗 [Open in Codepen](https://codepen.io/arpan-m/full/oNpdRyQ)
+* 🔗 [Open in Github Pages](https://arp-an.github.io/fCC-RWD/tributePage/home)
+* 🔗 [Open in Codepen](https://codepen.io/arpan-m/full/oNpdRyQ)
 
 ## Screenshots
 
