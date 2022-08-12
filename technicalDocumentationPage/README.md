@@ -4,12 +4,12 @@
 
 ## Demo
 
-🔗 [Open in Github Pages](https://arp-an.github.io/fCC-RWD/technicalDocumentationPage/home)
+🔗 [Open in Github Pages](https://mrArpanM.github.io/fCC-RWD/technicalDocumentationPage/home)
 🔗 [Open in Codepen](https://codepen.io/arpan-m/full/xxYMZJK)
 
 ## Screenshots
 
-![App Screenshot](https://github.com/arp-an/fCC-RWD/blob/main/technicalDocumentationPage/tdpSS.png?raw=true)
+![App Screenshot](https://github.com/mrArpanM/fCC-RWD/blob/main/technicalDocumentationPage/tdpSS.png?raw=true)
 
 ## Objectives
 
@@ -31,4 +31,4 @@
 
 ## Authors
 
-- [@arpan](https://www.github.com/arp-an)
+- [@arpan](https://www.github.com/mrArpanM)

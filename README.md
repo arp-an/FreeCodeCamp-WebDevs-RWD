@@ -2,19 +2,19 @@
 
 Final projects for freeCodeCamp Responsive Web Design course.
 
-### [On Github Pages](https://arp-an.github.io/fCC-RWD/)
+### [On Github Pages](https://mrArpanM.github.io/fCC-RWD/)
 
 ## Project 01
-* [Tribute Page](https://arp-an.github.io/fCC-RWD/tributePage)
+* [Tribute Page](https://mrArpanM.github.io/fCC-RWD/tributePage)
 
 ## Project 02
-* [Survey Form](https://arp-an.github.io/fCC-RWD/surveyForm)
+* [Survey Form](https://mrArpanM.github.io/fCC-RWD/surveyForm)
 
 ## Project 03
-* [Product Landing Page](https://arp-an.github.io/fCC-RWD/productLandingPage)
+* [Product Landing Page](https://mrArpanM.github.io/fCC-RWD/productLandingPage)
 
 ## Project 04
-* [Technical Documentation Page](https://arp-an.github.io/fCC-RWD/technicalDocumentationPage)
+* [Technical Documentation Page](https://mrArpanM.github.io/fCC-RWD/technicalDocumentationPage)
 
 ## Project 05
-* [Personal Portfolio Webpage](https://arp-an.github.io/fCC-FED/personalPortfolioWebpage)
+* [Personal Portfolio Webpage](https://mrArpanM.github.io/fCC-FED/personalPortfolioWebpage)
